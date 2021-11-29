@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+/* skip */
+#skip{ position:relative; }
+#skip a{ width:140px; line-height:30px; position:absolute; top:-40px; left:0; background-color:#333; border:1px solid #fff; color:#fff; text-align:center; }
+#skip a:active, #skip a:focus{ top:-65px; z-index:99999; }
+
 /* layout */
 #menu{ display:none; position:absolute; top:13px; right:14px; }
 #header { width:100%; position:fixed; left:0; top:0; background-color:#fff; border-bottom: 1px solid #ccc; z-index:9999; } 
